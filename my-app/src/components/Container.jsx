@@ -1,13 +1,15 @@
 import React from 'react'
 import FormTodo from './FormTodo'
-import TaskList from '.TaskList'
+import TaskList from './TaskList'
 
 const Container = () => {
   return (
-    <div>Container!</div>
-    <FormTodo/>
-    <TaskList/> 
-
+    <div> 
+      <h1>Container!</h1>
+      <FormTodo />
+      <TaskList /> 
+    </div>
+    
   )
 }
 
